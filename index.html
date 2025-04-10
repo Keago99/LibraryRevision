@@ -22,7 +22,20 @@
     <button id="addBookButton">Add Book</button>
     <div id="dialogDiv">
         <dialog id="addBookDialog">
-            This is where the book form will reside
+            <form>
+                <h3>Add Book</h3>
+                <label for="Title">Title:</label><br>
+                <input type="text" id="Title" name="Title"><br>
+                <label for="Author">Author:</label><br>
+                <input type="text" id="Author" name="Author"><br>
+                <label for="Pages">Pages:</label><br>
+                <input type="number" id="Title" name="Title"><br>
+                <label for="Read">Read?:</label><br>
+                <input type="radio" id="yes" name="Read" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="Read" value="no">
+                <label for="no">No</label> 
+            </form>
             <button autofocus id="closeDialog">Close</button>
         </dialog>
     </div>

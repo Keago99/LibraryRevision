@@ -9,8 +9,18 @@ body{
     color: whitesmoke;
 }
 
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #mainTable{
     width: 1000px;
+}
+
+#closeDialog{
+    margin-top: 10px;
+    margin-left: 100px;
 }
 
 th{

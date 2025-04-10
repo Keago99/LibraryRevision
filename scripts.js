@@ -1,7 +1,7 @@
 
 const myLibrary = [];
 const showButton = document.getElementById("addBookButton");
-const CloseDialog = document.getElementById("closeDialog");
+const closeDialog = document.getElementById("closeDialog");
 const addBookDialog = document.getElementById("addBookDialog");
 
 
@@ -17,6 +17,10 @@ function Book(title, author, pages, read){
 
 showButton.addEventListener ("click", () => {
     addBookDialog.showModal();
+});
+
+closeDialog.addEventListener("click", () => {
+    addBookDialog.close();
 });
 
 function addBookToLibrary(){
