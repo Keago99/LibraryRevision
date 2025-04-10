@@ -5,7 +5,8 @@ const closeDialog = document.getElementById("closeDialog");
 const addBookDialog = document.getElementById("addBookDialog");
 
 
-function Book(title, author, pages, read){
+function Book(id, title, author, pages, read){
+    this.id = id;
     this.title = title;
     this.author = author;
     this.pages = pages;
@@ -24,6 +25,14 @@ closeDialog.addEventListener("click", () => {
 });
 
 function addBookToLibrary(){
+    var title = document.getElementById("Title").value;
+    var author = document.getElementById("Author").value;
+    var Pages = document.getElementById("Pages").value;
+    var yes = document.getElementById("yes").value;
+    var no = document.getElementById("no").value;
+
+    const newBook ()
+
 
 }
 
